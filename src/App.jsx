@@ -3,7 +3,11 @@ import Search from './components/Search'
 
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import { useEffect, useState } from 'react'
+
 const App = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+
   return (
     <main>
       {/* Create a header component here in the app jsx */}
