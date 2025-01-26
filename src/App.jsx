@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Search from './components/Search'
 
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
 const App = () => {
   return (
     <main>
@@ -12,9 +12,10 @@ const App = () => {
         <header className="">
           <img src="./hero.png" alt="Hero Banner" />
 
-          <h1>Find <span className="text-gradient">Movies</span> You'll Enjoy Without the Hassle</h1>
-
+          <h1>Find <span className="text-gradient">Movies</span> You&apos;ll Enjoy Without the Hassle</h1>
         </header>
+
+        <Search />
       </div>
     </main>
   )
